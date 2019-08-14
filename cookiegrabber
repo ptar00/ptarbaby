@@ -1,0 +1,9 @@
+<?php 
+$html = <<<EOT
+
+<script>alert(document.cookie)</script>
+
+EOT;
+
+echo $html;
+?> 
